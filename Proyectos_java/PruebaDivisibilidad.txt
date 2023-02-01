@@ -1,0 +1,15 @@
+Algoritmo PruebaDivisibilidad 
+	//Propósito: Se introducen dos números enteros
+	//			y determinar si son divisibles 
+	Definir a,b Como Entero;
+	
+	Escribir "Dame valor de a:";
+	Leer a;
+	Escribir "Dame valor de b:";
+	Leer b;
+	
+	Si (a%b = 0) Entonces
+		Escribir a+"Es divisible entre"+b
+	FinSi
+	
+FinAlgoritmo

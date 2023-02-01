@@ -1,0 +1,15 @@
+Algoritmo MayorEdad
+	//Propósito: Leer una edad e Imprimir
+	//			un mensaje, si es mayor de edad
+	//definir variable de salida
+	//definir variable de entrada
+	definir edad Como Entero;
+	
+	Escribir "Proporciona Edad:";
+	leer edad;
+	Si (edad>=18) Entonces
+		Escribir "Mayor de edad";
+		Escribir "Felidades ya puedes obtener tu INE"
+	FinSi
+	
+FinAlgoritmo
